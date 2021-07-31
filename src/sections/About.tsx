@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Row, Col } from 'react-bootstrap'
 import { Section } from '../components'
 import about from '../data/about.json'
+import Iframe from 'react-iframe';
 
 const Name = styled.div`
   font-weight: 500;
@@ -12,7 +13,7 @@ export class About extends React.Component {
   render () {
     return (
       <Section id="about" title="About Me">
-        <iframe title="pixel-stream" src="http://212.130.103.79" style={{width: '100%', height: '593px'}}></iframe>
+        <Iframe title="pixel-stream" url="http://212.130.103.79" width="100%" height="593px"/>
         <Row>
           <Col md={2}>
             <Row>
