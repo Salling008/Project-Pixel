@@ -2,6 +2,7 @@
   "name": "react-resume-template",
   "description": "a really cool app",
   "version": "1.0.0",
+  "homepage": "https://project-pixel.herokuapp.com/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -25,6 +26,7 @@
     "react-dom": "^16.13.1",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.4.3",
+    "react-scripts-ts": "2.16.0",
     "react-slick": "^0.27.10",
     "react-text-loop": "^2.3.0",
     "react-tsparticles": "^1.17.9",
@@ -36,11 +38,11 @@
     "typescript": "^4.0.2"
   },
   "scripts": {
-    "dev": "cross-env react-scripts start",
+    "dev": "cross-env react-scripts-ts start",
     "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
     "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
