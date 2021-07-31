@@ -1,9 +1,7 @@
 {
   "name": "react-resume-template",
   "version": "0.1.0",
-  "repository": "https://github.com/kien-dang/react-resume-template",
-  "author": "Kien Dang",
-  "license": "MIT",
+  "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
@@ -26,7 +24,6 @@
     "react-dom": "^16.13.1",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.4.3",
-    "react-scripts-ts": "^3.1.0",
     "react-slick": "^0.27.10",
     "react-text-loop": "^2.3.0",
     "react-tsparticles": "^1.17.9",
@@ -38,11 +35,9 @@
     "typescript": "^4.0.2"
   },
   "scripts": {
+    "start": "node server.js",
     "dev": "cross-env react-scripts start",
-    "start": "serve -s build",
     "build": "react-scripts build",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject",
     "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
