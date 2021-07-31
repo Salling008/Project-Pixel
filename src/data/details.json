@@ -1,0 +1,26 @@
+{
+  "firstName1": "Frederik",
+  "middleName": ".",
+  "lastName1": "Østergaard",
+  "firstName2": "Gustav",
+  "lastName2": "Nielsen",
+  "avatar": "\/images\/avatar.svg",
+  "titles1": [
+    "Microsoft .NET developer",
+    "Front-End developer"
+  ],
+  "titles2": [
+    "Architect",
+    "I can do a lot of stuff"
+  ],
+  "socialNetworks": [
+    {
+      "link": "https://github.com/kien-dang/react-resume-template",
+      "iconName": "faGithub"
+    },
+    {
+      "link": "https://www.linkedin.com/in/trung-kien-dang",
+      "iconName": "faLinkedin"
+    }
+  ]
+}
