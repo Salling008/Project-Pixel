@@ -13,7 +13,7 @@ export class About extends React.Component {
   render () {
     return (
       <Section id="about" title="About Me">
-        <iframe src="http://127.0.0.1/" style={{width: '100%', height: '593px'}}></iframe>
+        <iframe src="http://212.130.103.79" style={{width: '100%', height: '593px'}}></iframe>
         <Row>
           <Col md={2}>
             <Row>
