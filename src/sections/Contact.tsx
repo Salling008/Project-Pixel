@@ -1,6 +1,6 @@
 import React from 'react'
 import { Section } from '../components'
-import { Row, Col, Button, Form } from 'react-bootstrap'
+import { Row, Col, Form } from 'react-bootstrap'
 import contact from '../data/contact.json'
 
 export class Contact extends React.Component {

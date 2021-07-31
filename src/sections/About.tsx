@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Row, Col } from 'react-bootstrap'
-import { Skill, Counter, Section } from '../components'
-import { IconPrefix, IconName } from '@fortawesome/fontawesome-svg-core'
+import { Section } from '../components'
 import about from '../data/about.json'
 
 const Name = styled.div`
@@ -13,7 +12,7 @@ export class About extends React.Component {
   render () {
     return (
       <Section id="about" title="About Me">
-        <iframe src="http://212.130.103.79" style={{width: '100%', height: '593px'}}></iframe>
+        <iframe title="pixel-stream" src="http://212.130.103.79" style={{width: '100%', height: '593px'}}></iframe>
         <Row>
           <Col md={2}>
             <Row>

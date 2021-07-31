@@ -1,9 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
-import { Section, Timeline } from '../components'
-import history from '../data/history.json'
-
-const career = history.career
+import { Section } from '../components'
 
 export class Experience extends React.Component {
   render () {
